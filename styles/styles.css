@@ -4,11 +4,6 @@ nav {
    text-align: center;
  }
 
- nav a {
-   color: white;
-   text-decoration: block;
-   margin: 20px;
- }
 
 main {
    max-width: 840px;
