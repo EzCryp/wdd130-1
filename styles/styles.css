@@ -16,20 +16,6 @@ main {
    max-width: 840px;
  }
 
-aside {
-   width: 200px;
-   height: auto;
-   margin: 10px;
-   border: 1px solid rgba(0, 0, 0, 0.2);
-   padding: 1rem;
-   background-color: #eee;
-   color: #333;
-   text-align: center;
-   box-shadow: 0 0 30px gray;
-    
-}
-
-
 h1, h2, h3 { 
     color: steelblue;
 
@@ -47,8 +33,21 @@ img {
 p {
    margin: 10px;
    padding: 0px;
+   font-family: Arial, sans-serif;
  }
 
+ aside {
+   width: 200px;
+   height: auto;
+   margin: 10px;
+   border: 1px solid rgba(0, 0, 0, 0.2);
+   padding: 1rem;
+   background-color: #eee;
+   color: #333;
+   text-align: center;
+   box-shadow: 0 0 30px gray;
+    
+}
 footer {
    background-color: steelblue;
    padding: 0px;
