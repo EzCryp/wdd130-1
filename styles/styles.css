@@ -2,6 +2,13 @@ nav {
    background-color: steelblue;
    padding: 10px;
    text-align: center;
+   color: white;
+   box-shadow: 0 0 30px gray;
+ }
+
+a {
+   color: white;
+   margin: 40px;
  }
 
 
