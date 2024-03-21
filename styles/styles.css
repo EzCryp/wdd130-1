@@ -11,6 +11,7 @@ main {
 
 aside {
    width: 200px;
+   height: auto;
    margin: 10px;
    border: 1px solid rgba(0, 0, 0, 0.2);
    padding: 1rem;
@@ -36,10 +37,8 @@ img {
 
 p {
    margin: 10px;
-   padding: 10px;
+   padding: 0px;
  }
-
-
 
 footer {
    background-color: steelblue;
