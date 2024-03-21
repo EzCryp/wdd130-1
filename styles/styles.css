@@ -29,10 +29,12 @@ aside {
     
 }
 
-h1 h2 h3 { 
+
+h1, h2, h3 { 
     color: steelblue;
 
    }
+
 
 img {
    width: 150px;
@@ -55,4 +57,5 @@ footer {
    position: fixed;
    bottom: 0;
    width: 100%;
+   font-size: smaller;
  }
