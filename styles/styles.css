@@ -4,11 +4,6 @@ nav {
    text-align: center;
  }
 
- nav a {
-   color: white;
-   text-decoration: block;
-   margin: 20px;
- }
 
 main {
    max-width: 840px;
@@ -26,14 +21,9 @@ aside {
     
 }
 
-h1 { 
+h1 h2 h3 { 
     color: steelblue;
- }
-h2 {
-    color: steelblue;
-   }
-h3 {
-    color: steelblue;
+
    }
 
 img {
