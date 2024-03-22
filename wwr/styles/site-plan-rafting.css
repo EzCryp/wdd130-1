@@ -38,7 +38,7 @@ p {
 
 section {
     background-color: var(--primary-color);
-    color: fff;
+    color: var(--secondary-color);
 }
 
 nav {
