@@ -49,3 +49,18 @@ nav {
     color: var(--nav-link-color);
     box-shadow: 0 0 30px gray;
 }
+
+nav :link {
+    text-decoration: none;
+    color: var(--nav-link-color);
+}
+
+nav :visited {
+    text-decoration: none;
+    color: var(--nav-link-color);
+}
+
+nav :hover {
+    background-color: var(--nav-hover-background);
+    color: var(--nav-hover-link-color);
+}
