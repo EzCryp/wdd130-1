@@ -12,7 +12,7 @@
     --nav-background: steelblue;
     --nav-link-color: white;
     --nav-hover-link-color: #fff;
-    --nav-hover-background: rgba(6, 78, 141, 0.2);
+    --nav-hover-background-color: rgba(6, 78, 141, 0.2);
 }
 
 body {
@@ -62,12 +62,12 @@ nav a :link {
     color: var(--nav-link-color);
 }
 
-nav :visited {
+nav a :visited {
     text-decoration: none;
     color: var(--nav-link-color);
 }
 
-nav :hover {
+nav a :hover {
     background-color: var(--nav-hover-background);
     color: var(--nav-hover-link-color);
 }
