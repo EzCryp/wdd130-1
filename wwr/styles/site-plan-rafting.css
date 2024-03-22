@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
 
 :root {
-    --primary-color: #f0f0f0;
-    --secondary-color: #333;
-    --accent1-color: #f0f0f0;
+    --primary-color: #3F7CAC;
+    --secondary-color: #D5E1A3;
+    --accent1-color: #BDC4A7;
     --accent2-color: #333;
 
     --heading-font: 'Josefin Sans', serif;
