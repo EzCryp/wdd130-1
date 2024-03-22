@@ -50,6 +50,13 @@ nav {
     box-shadow: 0 0 30px gray;
 }
 
+nav a {
+    color: var(--nav-link-color);
+    display: inline-block;
+    padding: 20px;
+    margin: 10px;
+}
+
 nav :link {
     text-decoration: none;
     color: var(--nav-link-color);
