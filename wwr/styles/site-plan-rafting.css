@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+
+:root {
+    --primary-color: #f0f0f0;
+    --secondary-color: #333;
+    --accent1-color: #f0f0f0;
+    --accent2-color: #333;
+
+    --heading-font: 'Josefin Sans', serif;
+    --paragraph-font: 'Rethink Sans', serif;
+
+    --nav-background: steelblue;
+    --nav-link-color: white;
+    --nav-hover-link-color: #fff;
+    --nav-hover-background: rgba(6, 78, 141, 0.2);
+}
+
+body {
+    max-width: 960px;
+    padding: 20px;
+    font-family: var(--paragraph-font);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--secondary
+}
+
+header {
+    padding: 20px;
+    background-color: var(--primary-color);
+    color: var(--accent1-color)
+}
+
+p {
+    padding: 25px;
+}
+
+section {
+    background-color: var(--primary-color);
+    color:  ffffff;
+}
+
+nav {
+    background-color: var(--nav-background);
+    font-size: 1.2rem;
+    padding: 10px;
+    text-align: center;
+    color: var(--nav-link-color);
+    box-shadow: 0 0 30px gray;
+}
