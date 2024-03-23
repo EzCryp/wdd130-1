@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
 
 :root {
-    --primary-color: #3F7CAC; /* steelblue */
-    --secondary-color: #D5E1A3; /* lightgreen */
-    --accent1-color: #BDC4A7; /* lightgray */
-    --accent2-color: #333; /* darkgray */
+    --primary-color: #3F7CAC;  /* headlines on a white background */
+    --secondary-color: #D5E1A3; /* headlines on a colored background */
+    --accent1-color: #BDC4A7; /* paragraph text on a white background */
+    --accent2-color: #333; /* paragraph text on a colored background */
 
     --heading-font: 'Josefin Sans', serif;
     --paragraph-font: 'Rethink Sans', serif;
@@ -50,10 +50,49 @@ main img {
     margin: 0 auto;
 }
 
-p {
-    padding: 25px;
-
+main p {
+    padding: 0;
+    align-content: center;
 }
+
+p {
+    font-family: var(--paragraph-font);
+    color: var(--paragraph-color-on-white);
+    padding: 25px;
+  }
+  .colors {
+    width: 100%;
+    min-width: 350px;
+    margin: 30px auto;
+    text-align: center;
+  }
+  .colors th {
+    background-color: #999;
+  }
+  .colors td{
+    width: 25%;
+    height: 3em;
+  }
+  .primary {
+    background-color: var(--primary-color);
+    font-family: var(--paragraph-font);
+  }
+  .secondary {
+    background-color: var(--secondary-color);
+    font-family: var(--paragraph-font);
+  }
+  .accent1 {
+    background-color: var(--accent1-color);
+    font-family: var(--paragraph-font);
+  }
+  .accent2{
+    background-color: var(--accent2-color);
+    font-family: var(--paragraph-font);
+  }
+  p.colored {
+    background-color: var(--paragraph-background-color);
+    color: var(--paragraph-color-on-color);
+  }
 
 section {
     background-color: var(--primary-color);
