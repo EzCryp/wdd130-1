@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
 
 :root {
-    --primary-color: #8AA1B1; /* headlines on a white background */
-    --secondary-color: hsl(88, 9%, 29%); /* headlines on a colored background */
-    --accent1-color: #9AC2C9 /* paragraph text on a white background */
+    --primary-color: #8AA1B1;  /* headlines on a white background */
+    --secondary-color: #4A5043; /* headlines on a colored background */
+    --accent1-color: #9AC2C9; /* paragraph text on a white background */
     --accent2-color: #B9D8C2; /* paragraph text on a colored background */
 
     --heading-font: 'Josefin Sans', serif;
@@ -51,12 +51,8 @@ main p {
     text-align: center;
     font-family: var(--paragraph-font);
     color: var(--paragraph-color-on-white);
-    padding: 0
+    padding: 0;
 }
-
-
-
-
 
 
 
@@ -89,6 +85,7 @@ main p {
     background-color: var(--accent2-color);
     font-family: var(--paragraph-font);
   }
+  
   p.colored {
     background-color: var(--paragraph-background-color);
     color: var(--paragraph-color-on-color);
@@ -116,13 +113,7 @@ nav a {
     margin: 10px;
 }
 
-nav a :link {
-    text-decoration: none;
-    color: var(--nav-link-color);
-}
-
-nav a :visited {
-    text-decoration: none;
+nav a:link, nav a:visited {
     color: var(--nav-link-color);
 }
 
