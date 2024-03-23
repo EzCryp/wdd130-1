@@ -17,7 +17,7 @@
 
 
 img {
-    display: flex;
+    display: block;
     justify-content: center;
 }
 
@@ -59,38 +59,38 @@ main p {
 
 
 
-  .colors {
+.colors {
     width: 100%;
     min-width: 350px;
     margin: 30px auto;
     text-align: center;
   }
-  .colors th {
+.colors th {
     background-color: #999;
     color: var(--nav-link-color);
   }
-  .colors td{
+.colors td{
     width: 25%;
     height: 3em;
   }
-  .primary {
+.primary {
     background-color: var(--primary-color);
     font-family: var(--paragraph-font);
   }
-  .secondary {
+.secondary {
     background-color: var(--secondary-color);
     font-family: var(--paragraph-font);
   }
-  .accent1 {
+.accent1 {
     background-color: var(--accent1-color);
     font-family: var(--paragraph-font);
   }
-  .accent2{
+.accent2{
     background-color: var(--accent2-color);
     font-family: var(--paragraph-font);
   }
 
-  p.colored {
+ p.colored {
     background-color: var(--primary-color);
     color: var(--nav-link-color);
   }
@@ -126,12 +126,39 @@ nav a :hover {
     color: var(--nav-hover-link-color);
 }
 
-img {
-    width: auto;
-    height: auto;
-    align-content: center;
-    
-}
+.sm-home {
+    grid-area: home;
+    background-color: #ccc;
+    line-height: 3em;
+  }
+  .sm-page2 {
+    grid-area: page2;
+    background-color: #ccc;
+    line-height: 3em;
+  }
+  .sm-page3 {
+    grid-area: page3;
+    background-color: #ccc;
+    line-height: 3em;
+  }
+  .top {
+    grid-area: top;
+    border-left: 1px solid;
+  }
+  .left {
+    grid-area: left;
+    border-top: 1px solid;
+    border-left: 1px solid;
+  }
+  .right {
+    grid-area: right;
+    border-top: 1px solid;
+    border-right: 1px solid;
+  }
+  
+  .wireframe-img {
+      width: 700px;
+  }
 
 footer{
     background-color: var(--primary-color);
