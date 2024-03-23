@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
 
 :root {
-    --primary-color: #3F7CAC;  /* headlines on a white background */
-    --secondary-color: #D5E1A3; /* headlines on a colored background */
-    --accent1-color: #BDC4A7; /* paragraph text on a white background */
-    --accent2-color: #333; /* paragraph text on a colored background */
+    --primary-color: #8AA1B1; /* headlines on a white background */
+    --secondary-color: hsl(88, 9%, 29%); /* headlines on a colored background */
+    --accent1-color: #9AC2C9 /* paragraph text on a white background */
+    --accent2-color: #B9D8C2; /* paragraph text on a colored background */
 
     --heading-font: 'Josefin Sans', serif;
     --paragraph-font: 'Rethink Sans', serif;
@@ -34,15 +34,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-    padding: 20px;
+    padding: 10px;
     background-color: var(--primary-color);
     color: var(--accent1-color);
     text-align: center;
 }
 
-main h2, h3{
-    text-align: center;
-}
 
 main img {
     display: block;
@@ -52,17 +49,17 @@ main img {
 main p {
     padding: 0;
     text-align: center;
-}
-
-a {
-    text-align: center;
-}
-
-p {
     font-family: var(--paragraph-font);
     color: var(--paragraph-color-on-white);
-    padding: 25px;
-  }
+    padding: 0
+}
+
+
+
+
+
+
+
   .colors {
     width: 100%;
     min-width: 350px;
