@@ -35,13 +35,14 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
+
 header {
     padding: 10px;
     background-color: var(--primary-color);
     color: var(--accent1-color);
     text-align: center;
-    border-top: 1px solid #000;
-    border-bottom: 1px solid #000;
+    border-top: 6px solid #000;
+    border-bottom: 6px solid #000;
 }
 
 
@@ -58,8 +59,16 @@ main p {
     padding: 0;
 }
 
+main a {
+    color: purple;
+}
 
-
+hr {
+    height: 6px;
+    margin: 35px 0;
+    background-color: var(--secondary-color);
+    
+}
 .colors {
     width: 100%;
     min-width: 350px;
