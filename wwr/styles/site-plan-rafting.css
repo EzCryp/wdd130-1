@@ -32,7 +32,12 @@ h1, h2, h3, h4, h5, h6 {
 header {
     padding: 20px;
     background-color: var(--primary-color);
-    color: var(--accent1-color)
+    color: var(--accent1-color);
+    text-align: center;
+}
+
+main h2, h3{
+    text-align: center;
 }
 
 p {
@@ -47,16 +52,17 @@ section {
 nav {
     background-color: var(--nav-background);
     font-size: 1.2rem;
-    padding: 10px;
+    padding: 0;
     text-align: center;
     color: var(--nav-link-color);
     box-shadow: 0 0 30px gray;
+    border-bottom: 1px solid #000;
 }
 
 nav a {
     color: var(--nav-link-color);
     display: inline-block;
-    padding: 20px;
+    padding: 0;
     margin: 10px;
 }
 
@@ -73,4 +79,21 @@ nav a :visited {
 nav a :hover {
     background-color: var(--nav-hover-background-color);
     color: var(--nav-hover-link-color);
+}
+
+img {
+    width: auto;
+    height: auto;
+    align-content: center;
+    
+}
+
+footer{
+    background-color: var(--primary-color);
+    color: whitesmoke;
+    padding: 0;
+    text-align: center;
+    box-shadow: 0 0 10px gray;
+    font-size: smaller;
+    border-top: 1px solid #000;
 }
