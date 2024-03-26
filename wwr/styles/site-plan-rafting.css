@@ -61,7 +61,8 @@ main p {
 }
 
 main a {
-    color: purple;
+    color: purple;  /* main a */
+    text-align: center;
 }
 
 hr {
@@ -182,3 +183,4 @@ footer{
     font-size: smaller;
     border-top: 1px solid #000;
 }
+/* */
