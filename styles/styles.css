@@ -48,7 +48,7 @@ h1 {
 
 aside {
    width: 260px;
-   height: 250px;
+   height: 270px;
    margin: 50px;
    border: 3px solid rgba(0, 0, 0, 0.2);
    padding: 1rem;
@@ -76,7 +76,7 @@ aside img {
 }
 
 aside p {
-   padding: 10px;
+   padding: 30px;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    font-size: x-small;
 }
