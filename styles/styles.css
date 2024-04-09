@@ -17,15 +17,21 @@ nav {
    color: white;
    box-shadow: 0 0 30px gray;
    padding: 20px;
+   font-family: Arial, Helvetica, sans-serif;
 }
 
+img {
+   width: 150px;
+   height: auto;
+   border: 1px solid steelblue;
+   padding: 2px;
+   
+   margin: 10px;
+}
 
 main img {
    width: 200px;
    height: auto;
-   padding: 2px;
-   box-shadow: 0 0 30px gray;
-   margin: 20px;
    float: right;
 }
 
@@ -42,7 +48,7 @@ h1 {
 
 aside {
    width: 260px;
-   height: auto;
+   height: 250px;
    margin: 50px;
    border: 3px solid rgba(0, 0, 0, 0.2);
    padding: 1rem;
@@ -66,11 +72,12 @@ aside img {
    padding: 2px;
    box-shadow: 0 0 30px gray;
    margin: 10px;
-  align-items: center;
+   align-items: center;
 }
 
 aside p {
    margin: 10px;
+   padding: 10px;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    font-size: x-small;
 }
@@ -84,6 +91,7 @@ footer {
    bottom: 0;
    width: 100%;
    font-size: smaller;
+   font-family: Arial, Helvetica, sans-serif;
  }
 
  /* Class Selectors */
