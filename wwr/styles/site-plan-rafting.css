@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
 
 :root {
-    --primary-color: #8AA1B1; /* steelblue */
-    --secondary-color: #4A5043; /* dark olive green */
-    --accent1-color: #9AC2C9; /* light blue */
-    --accent2-color: #B9D8C2; /* light green */
+    --primary-color: #414b3b; /* light olive green */
+    --secondary-color: #5d5340; /* dark olive green */
+    --accent1-color: #8ca87c; /* light green */
+    --accent2-color: #ffebeb; /* light pink */
 
     --heading-font: 'Josefin Sans', serif;
     --paragraph-font: 'Rethink Sans', serif;
 
-    --nav-background: steelblue;
+    --nav-background: #5d5340; /* dark olive green */
     --nav-link-color: white;
     --nav-hover-link-color: #fff;
     --nav-hover-background-color: rgba(6, 78, 141, 0.2);
@@ -19,7 +19,7 @@
 img {
     display: block;
     justify-content: center;
-    
+    width: 70%;
 }
 
 
@@ -28,19 +28,20 @@ body {
     padding: 20px;
     margin: 0 auto;
     font-family: var(--paragraph-font);
+    text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color: var(--secondary-color);
+    color: var(--accent1-color);
     text-align: center;
 }
 
 
 header {
     padding: 10px;
-    background-color: var(--primary-color);
-    color: var(--accent1-color);
+    background-color: var(--secondary-color);
+    color: var(--accent2-color);
     text-align: center;
     border-top: 6px solid #000;
     border-bottom: 6px solid #000;
@@ -139,7 +140,7 @@ nav a :hover {
     color: var(--nav-hover-link-color);
 }
 
-.sm-home {
+/* .sm-home {
     grid-area: home;
     background-color: #ccc;
     line-height: 3em;
@@ -172,7 +173,7 @@ nav a :hover {
   .wireframe-img {
       width: 700px; 
       padding: 10px;
-  }
+  } */
 
 footer{
     background-color: steelblue;
@@ -184,3 +185,4 @@ footer{
     border-top: 1px solid #000;
 }
 /* */
+
