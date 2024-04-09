@@ -47,6 +47,9 @@ header {
     border-bottom: 6px solid #000;
 }
 
+main {
+  max-width: 100%;
+}
 
 main img {
     display: block;

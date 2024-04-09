@@ -19,30 +19,63 @@ main {
     width: 680px;
     margin: 0 auto;
 }
+
+.grid {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    gap: 2rem;
+}
+
+section {
+    grid-column: 1/4;
+    grid-row: 2/3;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.icon img {
+    width: 25%;
+}
 header {
     color: var(--accent2-color);
+    margin: 10px;
     padding: 20px;
     font-family: var(--heading-font);
     display: grid;
-    grid-template-columns: 40% 50%;
+    grid-template-columns: 10% 90%;
 }
 
 header img {
-    width: 150px;
-    display: grid;
+    width: 70%;
+    display: flex;
     justify-self: center;
 }
 
 nav {
-    background-color: var(--nav-background);
+    /* background-color: var(--nav-background); */
     padding: 0;
-    display: inline-block;
+    display: block;
     color: var(--nav-link-color);
-    box-shadow: 0 0 30px gray;
+    /* box-shadow: 0 0 30px gray; */
 
 }
 
-header button {
+.trip-nav {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    background-color: var(--nav-background);
+    padding: 10px;
+    color: var(--nav-link-color);
+    box-shadow: 0 0 30px gray;
+}
+
+/* header button {
     background-color: var(--primary-color);
     color: var(--nav-link-color);
     padding: 10px 20px;
@@ -51,10 +84,10 @@ header button {
     font-family: var(--heading-font);
     font-size: 1.2em;
     cursor: pointer;
-}
+} */
 
 
-.home-hero {
+/* .home-hero {
     background-image: url('../images/rafting-hero.jpg');
     background-size: cover;
     background-position: center;
@@ -67,11 +100,11 @@ header button {
     font-size: 2em;
     font-weight: bold;
     text-align: center;
-    display: block;
+    display: inline-block;
     width: 100%;
     height: 600px;
-    float: right;
-    object-fit: cover;
+    float: center;
+    object-fit: cover; */
 }
 
 
