@@ -21,6 +21,8 @@
     box-sizing: border-box;
 }
 
+
+
 /* Body header for all page */
 header {
     color: var(--accent2-color);
@@ -86,17 +88,68 @@ footer p {
     padding: 8px;
 }
 
-
 /* Home main */
 
 
- /* Class Selectors */
- .box {
-    margin-top: 2rem;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    background-color: rgb(244, 231, 236);
-    color: #000;
-    text-align: left;
-    
- }
+/* Hero */
+
+.hero-container {
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    text-align: center;
+    margin: 0px;
+}
+
+.hero-title {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20%;
+}
+
+.hero-description {
+    font-size: 18px;
+    color: #9b2020;
+}
+
+
+
+/* Call to Action */
+.call-to-action {
+    padding: 3rem;
+    text-align: center;
+    margin: 3rem;
+    border: #a9a9a982 solid 1px;
+    border-radius: 8px;
+}
+
+.call-to-action h2 {
+    margin-bottom: 2rem;
+}
+
+
+.call-to-action a {
+    font-weight: bold;
+    font-size: larger;
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
+    padding: 8px 5rem;
+    text-decoration: none;
+}
+
+.call-to-action a:hover {
+    font-size: larger;
+    background-color: #5073b5;
+    color: #fff;
+    padding: 8px 5rem;
+    text-decoration: none;
+}
+
+/* Cards */
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+}
+
