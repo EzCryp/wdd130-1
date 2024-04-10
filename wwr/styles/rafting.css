@@ -154,10 +154,10 @@ footer p {
 }
 
 /* Form */
-
 label{
     display: inline-block;
     margin-bottom: 0.40em;
+    font-family: var(--paragraph-font);
 }
 
 
@@ -171,7 +171,7 @@ input, textarea, select {
 
 form {
     width: 550px;
-    height: 550px;
+    height: 650px;
     margin: 0 auto;
     padding: 1rem;
     background-color:#eee;
@@ -180,6 +180,18 @@ form {
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+figure {
+    display: grid;
+    justify-content: flex-end;
+
+}
+
+figure img{
+    display: flex;
+    flex-direction: column;
+    
+
+}
 
 fieldset {
     display: grid;
