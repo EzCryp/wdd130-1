@@ -1,125 +1,102 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
 
 :root {
-    --primary-color: #8AA1B1; /* steelblue */
-    --secondary-color: #4A5043; /* dark olive green */
-    --accent1-color: #9AC2C9; /* light blue */
-    --accent2-color: #B9D8C2; /* light green */
+    --primary-color: #414b3b; /* dark green */
+    --secondary-color: #5d5340; /* dark brown */
+    --accent1-color: #8ca87c; /* light olive green */
+    --accent2-color: #ffebeb; /* light pink */
 
     --heading-font: 'Josefin Sans', serif;
     --paragraph-font: 'Rethink Sans', serif;
 
-    --nav-background: steelblue;
+    --nav-background: #5d5340; /* dark olive green */
     --nav-link-color: white;
     --nav-hover-link-color: #fff;
     --nav-hover-background-color: rgba(6, 78, 141, 0.2);
 }
+
 /* whole page */
 * {
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
-main {
-    width: 680px;
-    margin: 0 auto;
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: 70% 30%;
-    gap: 2rem;
-}
-
-section {
-    grid-column: 1/4;
-    grid-row: 2/3;
-}
-
-.icon {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-end;
-}
-
-.icon img {
-    width: 25%;
-}
-
+/* Body header for all page */
 header {
     color: var(--accent2-color);
-    margin: 10px;
     padding: 20px;
     font-family: var(--heading-font);
     display: grid;
-    grid-template-columns: 10% 90%;
+    grid-template-columns: 25% 50% 25%;
 }
 
 header img {
-    width: 70%;
-    display: flex;
+    width: 150px;
+    display: grid;
     justify-self: center;
 }
 
 nav {
-    /* background-color: var(--nav-background); */
-    padding: 0;
-    display: block;
-    color: var(--nav-link-color);
-    /* box-shadow: 0 0 30px gray; */
-
-}
-
-.trip-nav {
     display: flex;
-    justify-content: right;
-    align-items: right;
-    background-color: var(--nav-background);
-    padding: 10px;
-    color: var(--nav-link-color);
-    box-shadow: 0 0 30px gray;
-}
-
-/* header button {
-    background-color: var(--primary-color);
-    color: var(--nav-link-color);
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-family: var(--heading-font);
-    font-size: 1.2em;
-    cursor: pointer;
-} */
-
-
-/* .home-hero {
-    background-image: url('../images/rafting-hero.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 400px;
-    display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    font-size: 2em;
-    font-weight: bold;
+}
+
+nav a {
+    text-decoration-line: none;
+    font-size: large;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+/* Footer for all page */
+/* Footer */
+footer {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    background-color: var(--secondary-color);
+    color: whitesmoke;
+    padding: 1rem;
     text-align: center;
-    display: inline-block;
-    width: 100%;
-    height: 600px;
-    float: center;
-    object-fit: cover; */
+    box-shadow: 0 0 10px gray;
+    font-size: smaller;
+    border-top: 1px solid #000;
+    position: relative;
+}
+
+footer p {
+    text-align: center;
+    grid-column-start: 2;
+    color: whitesmoke;
+    font-family: var(--paragraph-font);
+    padding: 10px;
+    top: 50%;
+    left: 50%;
+}
+
+.icon {
+    display: flexbox;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.icon img {
+    width: 10%;
+    padding: 8px;
 }
 
 
-/* --primary-color: #8ca87c; light olive green */
-/* --secondary-color: #414b3b; /* dark olive green * */
-/* --accent1-color: #f7f7f7; white */
-/* --accent2-color: #ffebeb; light pink */
-/* --accent3-color: #5d5340; dark brown */
+/* Home main */
 
 
-
+ /* Class Selectors */
+ .box {
+    margin-top: 2rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: rgb(244, 231, 236);
+    color: #000;
+    text-align: left;
+    
+ }

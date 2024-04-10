@@ -10,7 +10,7 @@
     </head>
 
     <body> 
-      <header>
+      <header> <!-- Header -->
         <img src="images/rafting-logo.svg" alt="Rafting Site Logo">
 	      <nav>
           <a href="index.html">Home</a>
@@ -20,11 +20,75 @@
         </nav>
       </header>
 
-      <main>
+      <main> <!-- Main -->
+        <h1>Contact Us</h1>
+        <section class="happy_employees">
+            <figure>
+                <img src="../wwr/images/orientation-site.JPG" alt="Gathering">
+                <figcaption>We enjoy working here!</figcaption>
+            </figure>
+            <figure>
+                <img src="../wwr/images/orientation.JPG" alt="Orientation">
+                <figcaption>We are waiting for you to join us!</figcaption>
+            </figure>
+            <figure>
+                <img src="../wwr/images/orientation2.JPG" alt="Safety Planning">
+                <figcaption>We've been planning new attractive tour plans every day!</figcaption>
+            </figure>
+        </section>
 
+        <section>
+        <form>
+            <div>
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" name="fullname">
+            </div>
+            <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email"> 
+            </div>
+            <div class="type_inquiry">
+                <p>Type of Inquiry</p>
+                <input type="radio" id="general" name="inquiry_type" value="General_Inquiry">
+                <label for="general">General Inquiry</label>
+                <input type="radio" id="reservation" name="inquiry_type" value="Reservation_Question">
+                <label for="reservation">Reservation Question</label>
+                <input type="radio" id="suggestion" name="inquiry_type" value="Website_Suggestion">
+                <label for="suggestion">Website Suggestion</label>
+            </div>
+            <div>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="6" placeholder="Type your message here"></textarea>
+            </div>
+            <div class="subscription">
+                <input type="checkbox" id="subscription" name="subscription">
+                <label for="subscription">Please subscribe me to the monthly newsletter</label>
+            </div>
+
+            <button type="submit">Send Message</button>
+            
+        </form>
+        </section>
+
+        <h2 class="office">Our Office</h2>
+
+        <section class="office_info">
+            <div id="conctact" class="info">
+            <h3>Address</h3>
+            <p>B12 L7, Cagayan de Oro, 9000 Misamis Oriental, Philippines</p>
+            <h3>Telephone</h3>
+            <p>(+63) 961 6825927</p>
+            <h3>Email</h3>
+            <p>customercare@wwra.com</p>
+            </div>
+
+            <div class="map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21192.503982851595!2d124.62695667175086!3d8.475254139088628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32fff2d644512a69%3A0xc7498496be3a4f0d!2s1st%20Rafting%20Adventure!5e0!3m2!1sen!2sph!4v1712702315360!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
       </main>
 
-      <footer>
+      <footer> <!-- Footer -->
         <p>&copy; 2024 | Club Rafting | Ezra Vincent Zacarias | WDD 130</p>
         <div class="icon">
           <a href="https://facebook.com" target="_blank"><img src="images/facebook.svg" alt="Facebook"></a>
@@ -32,6 +96,7 @@
           <a href="https://twitter.com" target="_blank"><img src="images/twitter.svg" alt="Twitter"></a>
         </div>
       </footer>
+      
     </body>
 </html>
 
