@@ -51,11 +51,12 @@ aside {
    height: 270px;
    margin: 50px;
    border: 3px solid rgba(0, 0, 0, 0.2);
-   padding: 1rem;
+   padding-right: 1rem;
+   margin-right: 1rem;
    background-color: #eee;
    color: #333;
    text-align: center;
-   box-shadow: 0 0 30px gray;
+   box-shadow: inset 5px 0 5px -5px gray;
    align-self: inherit;
    position: relative;
 }
@@ -75,8 +76,9 @@ aside img {
    align-items: center;
 }
 
-aside p {
-   padding: 30px;
+aside > p {
+   padding: 20px;
+   margin: 1rem;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    font-size: x-small;
 }
