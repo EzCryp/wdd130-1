@@ -119,9 +119,10 @@ footer p {
     color: #fff;
     padding: 1rem;
     text-align: center;
-    margin: 2rem;
     border: 1px solid #a9a9a982;
     border-radius: 10px;
+    box-shadow: 2 0 10px gray;
+    left: 50%;
 }
 
 .call-to-action h2 {
