@@ -58,7 +58,7 @@ footer {
     grid-template-columns: 25% 50% 25%;
     background-color: var(--secondary-color);
     color: whitesmoke;
-    padding: 1rem;
+    padding: .5rem;
     text-align: center;
     box-shadow: 0 0 10px gray;
     font-size: smaller;
