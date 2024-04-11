@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a basic HTML and CSS quiz">
+    <meta name="author" content="Ezra Vincent Zacarias">
+    <link rel="stylesheet" href="styles/quiz.css">
+    <title>Ez Quiz</title>
+</head>
+<body>
+    <header>
+        <h1>&#x2611; Basic HTML and CSS Quiz</h1>
+    </header>
+    <form action="">
+        <fieldset>
+               
+            <div class="form-item">
+                <label for="q1"><strong>1.</strong> What does HTML mean?</label>
+                <input type="text" id="q1" name="q1">
+            </div>
+            
+            <div class="form-item">
+                <label for="q2"><strong>2.</strong> How does wireframing help in creating a web design?</label>
+                <textarea name="q2" id="q2" cols="30" rows="4"></textarea>
+            </div>
+
+            <div class="form-item">
+                <label for="q3"><strong>3.</strong> Which of the following is a valid CSS comment? </label>
+                <select name="q3" id="q3">
+                    <option value="" selected disabled>Choose One ...</option>
+                    <option value="#">#</option>
+                    <option value="--">***</option>
+                    <option value="/**/">/* .... */</option>
+                    <option value="//">/ ... /</option>
+                </select>
+            </div>
+            <div class="form-item">
+                <label for="q4"><strong>4.</strong> What is the bottom margin given this declaration?</label>
+                <div class="q4-text">
+                    <h3>margin: 10px 5px 15px;</h3>
+                </div>
+                <input type="number" id="q4" name="q4">
+            </div>   
+        </fieldset>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
+

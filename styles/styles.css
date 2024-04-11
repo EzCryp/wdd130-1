@@ -1,51 +1,114 @@
-nav {
-   background-color: steelblue;
-   padding: 10px;
-   text-align: center;
- }
-
-
-main {
-   max-width: 840px;
- }
-
-aside {
-   width: 200px;
-   margin: 10px;
-   border: 1px solid rgba(0, 0, 0, 0.2);
-   padding: 1rem;
-   background-color: #eee;
-   color: #333;
-   text-align: center;
-   box-shadow: 0 0 30px gray;
-   position: relative;
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
 }
 
-h1 h2 h3{ 
-    color: steelblue;
- }
+main {
+   grid-column: 2/3;
+   margin: 1rem;
+   max-width: 840px;
+}
+
+
+nav {
+   background-color: steelblue;
+   text-align: center;
+   color: white;
+   box-shadow: 0 0 30px gray;
+   padding: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+}
 
 img {
    width: 150px;
    height: auto;
+   border: 1px solid steelblue;
+   padding: 2px;
+   
+   margin: 10px;
+}
+
+main img {
+   width: 200px;
+   height: auto;
+   float: right;
+}
+
+
+main p {
+   margin: 10px;
+   font-family: Arial, sans-serif;
+}
+
+h1 { 
+   color: steelblue;
+}
+
+
+aside {
+   width: 260px;
+   height: 270px;
+   margin: 50px;
+   border: 3px solid rgba(0, 0, 0, 0.2);
+   padding-right: 1rem;
+   margin-right: 1rem;
+   background-color: #eee;
+   color: #333;
+   text-align: center;
+   box-shadow: inset 5px 0 5px -5px gray;
+   align-self: inherit;
+   position: relative;
+}
+
+aside h2 {
+   position: absolute;
+   top: 140px;
+}
+
+aside img {
+   width: 200px;
+   height: auto;
    border: 1px;
    padding: 2px;
    box-shadow: 0 0 30px gray;
+   margin: 10px;
+   align-items: center;
 }
 
-p {
-   margin: 10px;
-   padding: 10px;
- }
-
-
+aside > p {
+   padding: 20px;
+   margin: 1rem;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: x-small;
+}
 
 footer {
    background-color: steelblue;
-   padding: 0px;
+   padding: 10px;
    text-align: center;
    color: white;
    position: fixed;
    bottom: 0;
    width: 100%;
+   font-size: smaller;
+   font-family: Arial, Helvetica, sans-serif;
+ }
+
+ /* Class Selectors */
+.box {
+   margin-top: 2rem;
+   border: 1px solid rgba(0, 0, 0, 0.1);
+   padding: 20px;
+   background-color: rgb(244, 231, 236);
+   color: #000;
+   text-align: left;
+   
 }
+
+.grid {
+   display: grid;
+   align-items: center;
+   gap: 0rem;
+}
+
