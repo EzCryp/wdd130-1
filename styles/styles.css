@@ -9,7 +9,7 @@ header {
    text-align: center;
    padding: 10px;
    font-family: Arial, Helvetica, sans-serif;
-   box-shadow: 0 0 30px gray;
+   /* box-shadow: 0 0 30px gray; */
    
 }
 
@@ -25,10 +25,11 @@ nav {
    display: flex;
    justify-content: space-around;
    text-align: center;
-   color: hsla(0, 60%, 56%, 0.439);
-   box-shadow: 0 0 30px gray;
+   /* color: hsla(0, 60%, 56%, 0.439); */
+   box-shadow: 0 0 20px steelblue;
    padding: 20px;
    font-family: Arial, Helvetica, sans-serif;
+   border-radius: 10px;
 }
 
 img {
@@ -88,7 +89,7 @@ aside img {
    height: auto;
    border: 1px;
    padding: 2px;
-   box-shadow: 0 0 30px gray;
+   box-shadow: 0 0 30px steelblue;
    margin: 10px;
    align-items: center;
 }
@@ -135,3 +136,8 @@ footer {
 
 }
 
+.hr {
+   height: 6px;
+    margin: 35px 0;
+    background-color: steelblue;
+}
