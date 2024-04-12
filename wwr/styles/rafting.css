@@ -15,7 +15,7 @@
     --nav-hover-background-color: rgba(6, 78, 141, 0.2);
 }
 
-/* whole page */
+/** each page **/
 * {
     margin: 0;
     box-sizing: border-box;
@@ -23,7 +23,7 @@
 
 
 
-/* Body header for all page */
+/** Body header for all page **/
 header {
     color: var(--accent2-color);
     padding: 20px;
@@ -42,6 +42,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-sizing: border-box;
 }
 
 nav a {
@@ -51,7 +52,19 @@ nav a {
     color: var(--primary-color);
 }
 
-/* Footer for all page */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+
+}
+
+
+/** Footer for all page **/
 /* Footer */
 footer {
     display: grid;
@@ -88,6 +101,7 @@ footer p {
     padding: 8px;
 }
 
+
 /* Home main */
 /* Hero */
 
@@ -106,11 +120,20 @@ footer p {
 }
 
 .hero-description {
-    font-size: 18px;
-    color: #9b2020;
+    font-size: 30px;
+    color: #9b20207d;
+    
 }
 
+.hero-description img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 30px gray;
+    padding: .5rem;
+    margin: 10px;
 
+}
 
 /* Call to Action */
 .call-to-action {
@@ -147,6 +170,11 @@ footer p {
     text-decoration: none;
 }
 
+
+
+
+
+/* About */
 /* Cards */
 .card-container {
     display: flex;
@@ -158,24 +186,25 @@ footer p {
 /* Form */
 label{
     display: inline-block;
-    margin-bottom: 0.40em;
+    margin-bottom: 0.4rem;
     font-family: var(--paragraph-font);
+    font-size: 1rem;
 }
 
 
 input, textarea, select {
     display: block;
-    padding: 0.3rem;
+    padding:   .2rem;
     font-size: 1.1rem;
     width: 100%;
 }
 
 
 form {
-    width: 550px;
-    height: 650px;
+    width: 400px;
+    height: 620px;
     margin: 0 auto;
-    padding: 1rem;
+    padding: 1.5rem;
     background-color:#eee;
     display: grid;
     border-radius: 0.5rem;
@@ -255,7 +284,6 @@ office {
 }
 
 /* table */
-
 .table-component {
     padding: 2rem 0;
     width: 75%;

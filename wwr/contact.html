@@ -22,7 +22,45 @@
 
       <main> <!-- Main -->
         <h1>Contact Us</h1>
-        <section class="happy_employees">
+
+        <section class="form">
+          <form>
+              <div>
+              <label for="fullname">Full Name</label>
+              <input type="text" id="fullname" name="fullname">
+              </div>
+
+              <div>
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email"> 
+              </div>
+              
+              <div class="type_inquiry">
+                  <p>Type of Inquiry</p>
+                  <input type="radio" id="general" name="inquiry_type" value="General_Inquiry">
+                  <label for="general">General Inquiry</label>
+                  <input type="radio" id="reservation" name="inquiry_type" value="Reservation_Question">
+                  <label for="reservation">Reservation Question</label>
+                  <input type="radio" id="suggestion" name="inquiry_type" value="Website_Suggestion">
+                  <label for="suggestion">Website Suggestion</label>
+              </div>
+  
+              <div>
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" rows="6" placeholder="Type your message here"></textarea>
+              </div>
+  
+              <div class="subscription">
+                  <input type="checkbox" id="subscription" name="subscription">
+                  <label for="subscription">Subscribe me to the monthly newsletter</label>
+              </div>
+  
+              <button type="submit">Send Message</button>
+              
+          </form>
+        </section>
+
+        <section class="site-orientation">
             <figure>
                 <img src="../wwr/images/orientation-site.JPG" alt="Gathering">
                 <figcaption>We enjoy working here!</figcaption>
@@ -37,38 +75,7 @@
             </figure>
         </section>
 
-        <section>
-        <form>
-            <div>
-            <label for="fullname">Full Name</label>
-            <input type="text" id="fullname" name="fullname">
-            </div>
-            <div>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email"> 
-            </div>
-            <div class="type_inquiry">
-                <p>Type of Inquiry</p>
-                <input type="radio" id="general" name="inquiry_type" value="General_Inquiry">
-                <label for="general">General Inquiry</label>
-                <input type="radio" id="reservation" name="inquiry_type" value="Reservation_Question">
-                <label for="reservation">Reservation Question</label>
-                <input type="radio" id="suggestion" name="inquiry_type" value="Website_Suggestion">
-                <label for="suggestion">Website Suggestion</label>
-            </div>
-            <div>
-                <label for="message">Message</label>
-                <textarea id="message" name="message" rows="6" placeholder="Type your message here"></textarea>
-            </div>
-            <div class="subscription">
-                <input type="checkbox" id="subscription" name="subscription">
-                <label for="subscription">Please subscribe me to the monthly newsletter</label>
-            </div>
-
-            <button type="submit">Send Message</button>
-            
-        </form>
-        </section>
+        
 
         <h2 class="office">Our Office</h2>
 
