@@ -97,6 +97,11 @@ footer p {
     padding: 8px;
 }
 
+/* Grid
+header, footer, .grid {
+    margin: 0 auto;
+    max-width: 840px;
+} */
 
 /* Home main */
 /* Hero */
@@ -297,7 +302,7 @@ input, textarea, select {
 }
 
 
-form {
+.form {
     width: 400px;
     height: 620px;
     margin: 0 auto;
@@ -341,10 +346,10 @@ fieldset {
 button {
     margin: 1rem;
     background-color: navy;
-    color: #fff;
+    color: hsl(0, 0%, 100%);
     border: none;
     border-radius: .5rem;
-    padding: .10rem;
+    padding: .5rem;
     font-size: 1.2rem;
 }
 
@@ -366,20 +371,7 @@ button:hover{
    font-style: normal;
 }
 
-iframe {
-    border: 5px solid black;
-    width: 100%; 
-    padding: 0 auto;
-    border: 10px;
-    image-orientation: from-image;
-    box-shadow: 0 0 30px gray;;
-  }
-  
-office {
-    padding: 10px;
-    margin: 10%;
-}
-
+/** Trip Page **/
 /* table */
 .table-component {
     padding: 2rem 0;
@@ -427,4 +419,72 @@ office {
     height: 200px;
     object-fit: cover;
     border-radius: .25rem;
+}
+
+/** Contact page **/
+.office_info {
+    padding: 10px;
+    margin: 10%;
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+iframe {
+    border: 5px solid black;
+    width: 100%; 
+    margin: 0 auto;
+    padding: 5 auto;
+    border: 10px;
+    image-orientation: from-image;
+    box-shadow: 0 0 30px gray;
+    float: right;
+    position: relative;
+    top: -10%;
+    left: -40px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+#contact, h2, h3{
+    top: 10px;
+    position: relative;
+    float: center;
+    padding: 2rem;
+    text-align: left;
+    box-shadow: 2 0 10px gray;
+    /* border: 1px solid black; */
+    /* grid-row: 1/2; */
+    grid-column: 1/2;
+    /* background-color: var(--accent1-color); */
+}
+
+#contact h1 {
+    text-align: center;
+}
+
+
+.site-orientation {
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 5rem;
+    /* border: 1px solid red; */
+}
+
+.site-orientation img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 0 30px gray;
+    padding: .5rem;
+    margin: 10px;
+}
+
+.contact-form {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+    grid-gap: 20px;
+    border: 1px solid red;
 }
