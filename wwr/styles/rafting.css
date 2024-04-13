@@ -58,9 +58,9 @@ h3,
 h4,
 h5,
 h6,{
-    font-family: var(--heading-font);
+    font-family: var(--heading-font); 
     color: var(--primary-color);
-
+    /* fix font issue */
 }
 
 
@@ -109,18 +109,19 @@ footer p {
 .hero-container {
     max-width: 100%;
     position: relative;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     background-size: cover;
     background-position: center;
     padding: 0px;
     margin: 0px;
+    height: 500px;
 }
 
 .hero-container img {
     width: 100%;
-    height: auto
-    /* position: absolute; */
-    box-shadow: 0 0 30px gray;
+    height: 400px;
+    position: absolute;
+    box-shadow: 10 0 50px gray;
     padding: 0 auto;
     margin: 0px;
 }
@@ -129,23 +130,32 @@ hero-container h1{
     /* border: 1px solid blue; */
     text-align: center;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    /* top: 50%; */
+    /* left: 50%; */
     background-color: #ffb6c16c;
-
+   
 }
 
 
 .hero-title {
-    font-size: 32px;
-    color: #333;
-    /* margin-bottom: 20%; */
+    font-size: 40px;
+    color: white;
+    /* background-color: hsla(0, 0%, 96%, 0.856)smoke; */
+    position: absolute;
+    background-color: #2d6f297d;
+    width: 700%;
+    top: 280px;
+    padding: 1rem;
+    
+    /* top: 50%;
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
 }
 
 .hero-description {
     font-size: 30px;
     color: #9b20207d;
-    
+    border: 1px solid red; 
 }
 
 .hero-description img {
@@ -158,10 +168,42 @@ hero-container h1{
 
 }
 
-.
+
+.home-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding: 5rem;
+    border: 1px solid yellow;
+}
+
+/* .home-content img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 30px gray;
+    padding: .5rem;
+    margin: 10px;
+} */
 
 
-/* Call to Action */
+.content {
+    padding: 2rem;
+    background-color: var(--accent2-color);
+    border-radius: 10px;
+    height: 250px;
+    border: 1px solid orange;
+    width: 20%;
+    position: relative;
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+   
+}
+
+    /* Call to Action */
 .call-to-action {
     text-decoration: none;
     background-color: var(--accent1-color);
@@ -179,6 +221,14 @@ hero-container h1{
 }
 
 
+#home {
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid #a9a9a982;
+    border-radius: 50px;
+    box-shadow: 2 0 10px gray;
+}
 .call-to-action a {
     font-weight: bold;
     font-size: larger;
@@ -357,12 +407,3 @@ office {
     object-fit: cover;
     border-radius: .25rem;
 }
-
-.content {
-    padding: 1rem;
-    background-color: var(--accent2-color);
-    border-radius: 5px;
-    height: 250px;
-}
-
-
