@@ -21,8 +21,6 @@
     box-sizing: border-box;
 }
 
-
-
 /** Body header for all page **/
 header {
     color: var(--accent2-color);
@@ -55,15 +53,11 @@ nav a {
 
 h1,
 h2,
-h3,
-h4,
-h5,
-h6,{
+h3 {
     font-family: var(--heading-font); 
     color: var(--primary-color);
     /* fix font issue */
 }
-
 
 /** Footer for all page **/
 /* Footer */
